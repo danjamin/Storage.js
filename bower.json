@@ -1,0 +1,23 @@
+{
+    "name": "Storage.js",
+    "version": "dev",
+    "description": "lightweight local storage service (using Container.js)",
+    "main": "Storage.js",
+    "keywords": [
+        "storage",
+        "local",
+        "localStorage",
+        "cache"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "container.js": "https://github.com/danjamin/Container.js.git#master"
+    }
+}
