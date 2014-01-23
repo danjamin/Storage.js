@@ -1,9 +1,10 @@
 {
-    "name": "Storage.js",
+    "name": "Store.js",
     "version": "dev",
     "description": "lightweight local storage service (using Container.js)",
-    "main": "Storage.js",
+    "main": "Store.js",
     "keywords": [
+        "store",
         "storage",
         "local",
         "localStorage",

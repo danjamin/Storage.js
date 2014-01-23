@@ -1,11 +1,11 @@
-// Storage.js
+// Store.js
 
-(function(localStorage, undefined) {
+(function(localStorage, Storage, undefined) {
 
-	Storage
-		.Service('storage');
+	Store
+		.Service('store');
 
-	function Storage() {
+	function Store() {
 		if (typeof(Storage) === "undefined") {
 			throw 'Local storage is not supported by your browser!';
 		}
@@ -20,4 +20,4 @@
 		};
 	}
 
-})(localStorage);
+})(localStorage, Storage);

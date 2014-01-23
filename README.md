@@ -1,19 +1,19 @@
-Storage.js
+Store.js
 ==========
 
 lightweight local storage service (using Container.js)
 
 	```javascript
 	MyClass.Service('my_app.my_class', [
-		'storage'
+		'store'
 	]);
 
-	function MyClass(storage) {
+	function MyClass(store) {
 		this.doSomething = function() {
 			var myData = 'some really cool data';
-			storage.set('key', myData);
+			store.set('key', myData);
 
-			console.log(storage.get('key') === myData);
+			console.log(store.get('key') === myData);
 		};
 	}
 	```
